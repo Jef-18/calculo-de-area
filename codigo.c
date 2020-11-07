@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main(){
+int main()
+{
 
   int lado1r1, lado2r1;
   int lado1r2, lado2r2;
@@ -10,25 +11,25 @@ int main(){
 
   bool verificar;
 
-  printf("CÁLCULO ÁREA\n");
+  printf("\n CÁLCULO ÁREA \n");
 
-  printf("\nPrimeiro lado do retângulo 1:" );
+  printf("\n Primeiro lado do retângulo 1: " );
   scanf("%i", &lado1r1);
 
-  printf("\nSegundo lado do retângulo 1:" );
+  printf("\n Segundo lado do retângulo 1: " );
   scanf("%i", &lado2r1);
 
-  printf("\nPrimeiro lado do retângulo 2:" );
+  printf("\n Primeiro lado do retângulo 2: " );
   scanf("%i", &lado1r2);
 
-  printf("\nSegundo lado do retângulo 2:" );
+  printf("\n Segundo lado do retângulo 2: " );
   scanf("%i", &lado2r2);
 
   area1 = lado1r1 * lado2r1;
   area2 = lado1r2 * lado2r2;
   verificar = area1 == area2;
 
-  printf("\nResultado: %d", verificar);
-  printf("\n1 para verdadeiro.\n0 para falso.");
+  printf("\n Resultado: %d", verificar);
+  printf("\n 1 para verdadeiro.\n 0 para falso.");
 
 }
